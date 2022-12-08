@@ -1,0 +1,84 @@
+body {
+  background-color: #22577A;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 14;
+  line-height: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+div {
+  display: block;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #57CC99;;
+  font-size: 60px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #80ED99;
+}
+
+#profile-pic {
+  width: 400px;
+  height: 400px;
+  border: 3px solid #57CC99;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #38A3A5;
+  padding: 40px;
+  width: 800px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: 3px solid #57CC99;text-align: center;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+#homies {
+  border-radius: 5px;
+  border: 3px solid #57CC99;
+}
+
+#henry {
+  border-radius: 5px;
+  border: 3px solid #57CC99;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
